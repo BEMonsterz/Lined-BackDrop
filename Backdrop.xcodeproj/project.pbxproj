@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E02AA5E35B7D3359C946B16 /* Pods_Lined_Backdrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DF32F856A61EB6796F23BA /* Pods_Lined_Backdrop.framework */; };
+		93321D662003E01D004E3F31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93321D652003E01C004E3F31 /* GoogleService-Info.plist */; };
+		9390B2C82003FCEC006C9204 /* ground1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9390B2C72003FCEC006C9204 /* ground1.jpg */; };
 		93E003C51FFE7E9B00F5660A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E003C41FFE7E9B00F5660A /* AppDelegate.swift */; };
 		93E003C71FFE7E9B00F5660A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E003C61FFE7E9B00F5660A /* ViewController.swift */; };
 		93E003CA1FFE7E9B00F5660A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E003C81FFE7E9B00F5660A /* Main.storyboard */; };
 		93E003CC1FFE7E9B00F5660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E003CB1FFE7E9B00F5660A /* Assets.xcassets */; };
 		93E003CF1FFE7E9B00F5660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E003CD1FFE7E9B00F5660A /* LaunchScreen.storyboard */; };
+		93E003EF2000234800F5660A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E003EE2000234800F5660A /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93E003C11FFE7E9B00F5660A /* Scenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F6E594BDB548089DED6DD1 /* Pods-Lined Backdrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lined Backdrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lined Backdrop/Pods-Lined Backdrop.debug.xcconfig"; sourceTree = "<group>"; };
+		62B810414999F93DB72298E0 /* Pods-Lined Backdrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lined Backdrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lined Backdrop/Pods-Lined Backdrop.release.xcconfig"; sourceTree = "<group>"; };
+		93321D652003E01C004E3F31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9390B2C72003FCEC006C9204 /* ground1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ground1.jpg; path = ../ground1.jpg; sourceTree = "<group>"; };
+		93E003C11FFE7E9B00F5660A /* Lined Backdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lined Backdrop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E003C41FFE7E9B00F5660A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E003C61FFE7E9B00F5660A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93E003C91FFE7E9B00F5660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93E003CB1FFE7E9B00F5660A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E003CE1FFE7E9B00F5660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E003D01FFE7E9B00F5660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E003DF200008A700F5660A /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		93E003E0200008A700F5660A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		93E003EE2000234800F5660A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		F0DF32F856A61EB6796F23BA /* Pods_Lined_Backdrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lined_Backdrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E02AA5E35B7D3359C946B16 /* Pods_Lined_Backdrop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,14 +52,18 @@
 			isa = PBXGroup;
 			children = (
 				93E003C31FFE7E9B00F5660A /* Scenes */,
+				93321D652003E01C004E3F31 /* GoogleService-Info.plist */,
+				9390B2C72003FCEC006C9204 /* ground1.jpg */,
 				93E003C21FFE7E9B00F5660A /* Products */,
+				93E003DE200008A700F5660A /* Frameworks */,
+				C122408C24267C97884DA4E9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		93E003C21FFE7E9B00F5660A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93E003C11FFE7E9B00F5660A /* Scenes.app */,
+				93E003C11FFE7E9B00F5660A /* Lined Backdrop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,28 +77,51 @@
 				93E003CB1FFE7E9B00F5660A /* Assets.xcassets */,
 				93E003CD1FFE7E9B00F5660A /* LaunchScreen.storyboard */,
 				93E003D01FFE7E9B00F5660A /* Info.plist */,
+				93E003EE2000234800F5660A /* TestViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		93E003DE200008A700F5660A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E003E0200008A700F5660A /* Photos.framework */,
+				93E003DF200008A700F5660A /* PhotosUI.framework */,
+				F0DF32F856A61EB6796F23BA /* Pods_Lined_Backdrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C122408C24267C97884DA4E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41F6E594BDB548089DED6DD1 /* Pods-Lined Backdrop.debug.xcconfig */,
+				62B810414999F93DB72298E0 /* Pods-Lined Backdrop.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93E003C01FFE7E9B00F5660A /* Scenes */ = {
+		93E003C01FFE7E9B00F5660A /* Lined Backdrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93E003D31FFE7E9B00F5660A /* Build configuration list for PBXNativeTarget "Scenes" */;
+			buildConfigurationList = 93E003D31FFE7E9B00F5660A /* Build configuration list for PBXNativeTarget "Lined Backdrop" */;
 			buildPhases = (
+				56B65CB244564ABDD221BEEB /* [CP] Check Pods Manifest.lock */,
 				93E003BD1FFE7E9B00F5660A /* Sources */,
 				93E003BE1FFE7E9B00F5660A /* Frameworks */,
 				93E003BF1FFE7E9B00F5660A /* Resources */,
+				95F84C0993DFEDF9AB669A1C /* [CP] Embed Pods Frameworks */,
+				CEDEB99AA3570E68E047847B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Scenes;
+			name = "Lined Backdrop";
 			productName = Scenes;
-			productReference = 93E003C11FFE7E9B00F5660A /* Scenes.app */;
+			productReference = 93E003C11FFE7E9B00F5660A /* Lined Backdrop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93E003BC1FFE7E9B00F5660A /* Build configuration list for PBXProject "Scenes" */;
+			buildConfigurationList = 93E003BC1FFE7E9B00F5660A /* Build configuration list for PBXProject "Backdrop" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93E003C01FFE7E9B00F5660A /* Scenes */,
+				93E003C01FFE7E9B00F5660A /* Lined Backdrop */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E003CF1FFE7E9B00F5660A /* LaunchScreen.storyboard in Resources */,
+				93321D662003E01D004E3F31 /* GoogleService-Info.plist in Resources */,
+				9390B2C82003FCEC006C9204 /* ground1.jpg in Resources */,
 				93E003CC1FFE7E9B00F5660A /* Assets.xcassets in Resources */,
 				93E003CA1FFE7E9B00F5660A /* Main.storyboard in Resources */,
 			);
@@ -131,12 +173,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56B65CB244564ABDD221BEEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95F84C0993DFEDF9AB669A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lined Backdrop/Pods-Lined Backdrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDEB99AA3570E68E047847B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lined Backdrop/Pods-Lined Backdrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93E003BD1FFE7E9B00F5660A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				93E003C71FFE7E9B00F5660A /* ViewController.swift in Sources */,
+				93E003EF2000234800F5660A /* TestViewController.swift in Sources */,
 				93E003C51FFE7E9B00F5660A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +363,14 @@
 		};
 		93E003D41FFE7E9B00F5660A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F6E594BDB548089DED6DD1 /* Pods-Lined Backdrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HFG6KLKA62;
+				DEVELOPMENT_TEAM = K6D7U78644;
 				INFOPLIST_FILE = Scenes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barcode.Scenes.Scenes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcode.Backdrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +379,14 @@
 		};
 		93E003D51FFE7E9B00F5660A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B810414999F93DB72298E0 /* Pods-Lined Backdrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HFG6KLKA62;
+				DEVELOPMENT_TEAM = K6D7U78644;
 				INFOPLIST_FILE = Scenes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barcode.Scenes.Scenes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcode.Backdrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93E003BC1FFE7E9B00F5660A /* Build configuration list for PBXProject "Scenes" */ = {
+		93E003BC1FFE7E9B00F5660A /* Build configuration list for PBXProject "Backdrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93E003D11FFE7E9B00F5660A /* Debug */,
@@ -312,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93E003D31FFE7E9B00F5660A /* Build configuration list for PBXNativeTarget "Scenes" */ = {
+		93E003D31FFE7E9B00F5660A /* Build configuration list for PBXNativeTarget "Lined Backdrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93E003D41FFE7E9B00F5660A /* Debug */,
